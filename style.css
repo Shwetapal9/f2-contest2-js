@@ -1,0 +1,35 @@
+.ui{
+    background-color: black;
+}
+*{
+    background-color: black;
+    color: white;
+    margin:20px;
+}
+
+select{
+    margin:10px 10px;
+    padding: 10px;
+}
+
+.add-user .row{
+    justify-content: space-evenly;
+}
+.row .col-auto{
+    width:29%;
+}
+.row .form-control{
+ background-color: black;
+ color: white;
+}
+.row .form-control:focus{
+    background-color: black;
+    color: white;
+    box-shadow: none;
+    border-color: white;
+}
+#bttn{
+    border-radius:unset ; 
+    width: 200px;
+    height: 45px;  
+}
